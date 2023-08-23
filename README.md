@@ -1,4 +1,4 @@
-# CWIE-Next-2023
+# Satit next
 Windows Server 2022
 Server PHP version 7.0.30
 
