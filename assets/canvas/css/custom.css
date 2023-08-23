@@ -1,0 +1,62 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+.chart-samples ul {
+	list-style: none;
+}
+
+.chart-samples h4 {
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+
+.chart-samples li {
+	font-size: 16px;
+	line-height: 2.2;
+	font-weight: 600;
+}
+
+.chart-samples li a:not(:hover) {
+	color: #aaa;
+}
+
+.portfolio-single-content h2 {
+	font-size: 1.75rem;
+}
+.portfolio-meta {
+	font-size: 1rem;
+}
+.portfolio-meta li {
+	margin-bottom: 1rem;
+}
+/* Swiper */
+.slider-top .swiper-slide {
+	width: 100%;
+	height: 100%;
+	min-height: 500px;
+	background-size: cover;
+	background-position: center center;
+}
+
+@media (min-width: 992px) {
+	.slider-top .swiper-slide {
+		width: 85%;
+		min-height: 550px;
+	}
+}
+.slider-thumbs {
+	padding: 10px 0;
+}
+.slider-thumbs .swiper-slide {
+	width: 23%;
+	height: 100%;
+	opacity: 0.3;
+}
+.slider-thumbs .swiper-slide-active {
+	opacity: 1;
+}

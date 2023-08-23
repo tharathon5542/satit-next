@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteBase /satit-next/
+RewriteCond $1 !^(index\.php|assets|uploads|files|fonts|images|application|robots\.txt)
+RewriteRule ^(.*)$  index.php/$1 [L]

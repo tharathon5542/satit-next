@@ -1,0 +1,76 @@
+/*
+Template Name: Admin Template
+Author: Wrappixel
+
+File: scss
+*/
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);
+/*Theme Colors*/
+/**
+ * Table Of Content
+ *
+ * 	1. Color system
+ *	2. Options
+ *	3. Body
+ *	4. Typography
+ *	5. Breadcrumbs
+ *	6. Cards
+ *	7. Dropdowns
+ *	8. Buttons
+ *	9. Typography
+ *	10. Progress bars
+ *	11. Tables
+ *	12. Forms
+ *	14. Component
+ */
+/*******************
+chat application Page
+******************/
+.chat-main-box {
+	position: relative;
+	overflow: hidden;
+}
+
+
+.chat-main-box .chat-right-aside .chat-rbox {
+	height: auto;
+	position: relative;
+}
+.chat-main-box .chat-right-aside .chat-list {
+	max-height: none;
+	height: 100%;
+	padding-top: 40px;
+}
+.chat-main-box .chat-right-aside .chat-list .chat-text {
+	border-radius: 6px;
+}
+.chat-main-box .chat-right-aside .chat-list li .chat-time {
+	display: block;
+	text-align: left;
+}
+.chat-main-box .chat-right-aside .chat-list li.reverse .chat-time {
+	margin-left: auto;
+	text-align: right;
+}
+.chat-main-box .chat-right-aside .send-chat-box {
+	position: relative;
+}
+.chat-main-box .chat-right-aside .send-chat-box .form-control {
+	border: none;
+	border-top: 1px solid #e9ecef;
+	resize: none;
+	height: 80px;
+	padding-right: 180px;
+}
+.chat-main-box .chat-right-aside .send-chat-box .form-control:focus {
+	border-color: #e9ecef;
+}
+.chat-main-box .chat-right-aside .send-chat-box .custom-send {
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+}
+.chat-main-box .chat-right-aside .send-chat-box .custom-send .cst-icon {
+	color: #212529;
+	margin-right: 10px;
+}
